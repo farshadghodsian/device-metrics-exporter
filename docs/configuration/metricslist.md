@@ -22,15 +22,15 @@ The following table contains a full list of GPU Metrics that are available using
 | PCIE_SPEED                      | Current pcie speed capable in GT/s                                         |
 | PCIE_MAX_SPEED                  | Maximum capable pcie speed in GT/s                                         |
 | PCIE_BANDWIDTH                  | Current instantaneous bandwidth usage in Mb/s                              |
-| GPU_ENERGY_CONSUMED             | Energy consumed by GPU in                                                  |
+| GPU_ENERGY_CONSUMED             | Energy consumed by GPU in Micro Jules (uJ)                                 |
 | PCIE_REPLAY_COUNT               | Total number of PCIe replays (NAKs)                                        |
 | PCIE_RECOVERY_COUNT             | Total number of PCIe replays (NAKs)                                        |
 | PCIE_REPLAY_ROLLOVER_COUNT      | PCIe Replay accumulated count                                              |
 | PCIE_NACK_SENT_COUNT            | PCIe NAK sent accumulated count                                            |
 | PCIE_NAC_RECEIVED_COUNT         | PCIe NAK received accumulated count                                        |
-| GPU_CLOCK                       | Clock measure of the GPU                                                   |
+| GPU_CLOCK                       | Clock measure of the GPU in Mhz                                            |
 | GPU_POWER_USAGE                 | GPU power usage in Watts                                                   |
-| GPU_TOTAL_VRAM                  | Total VRAM available                                                       |
+| GPU_TOTAL_VRAM                  | Total VRAM available in MB                                                 |
 | GPU_ECC_CORRECT_TOTAL           | Total Correctable ECC error count                                          |
 | GPU_ECC_UNCORRECT_TOTAL         | Total Uncorrectable ECC error count                                        |
 | GPU_ECC_CORRECT_SDMA            | Correctable ECC error in SDMA                                              |
@@ -75,14 +75,14 @@ The following table contains a full list of GPU Metrics that are available using
 | GPU_XGMI_NBR_3_TX_THRPUT        | Represents the number of outbound beats (each representing 32 bytes) on link 3 |
 | GPU_XGMI_NBR_4_TX_THRPUT        | Represents the number of outbound beats (each representing 32 bytes) on link 4 |
 | GPU_XGMI_NBR_5_TX_THRPUT        | Represents the number of outbound beats (each representing 32 bytes) on link 5 |
-| GPU_USED_VRAM                   | Total VRAM memory used in bytes                                            |
-| GPU_FREE_VRAM                   | Total VRAM memory free in bytes                                            |
-| GPU_TOTAL_VISIBLE_VRAM          | Total available visible VRAM memory in bytes                               |
-| GPU_USED_VISIBLE_VRAM           | Total used VRAM memory in bytes                                            |
-| GPU_FREE_VISIBLE_VRAM           | Total free VRAM memory in bytes                                            |
-| GPU_TOTAL_GTT                   | Total GTT memory                                                           |
-| GPU_USED_GTT                    | Current GTT memory usage                                                   |
-| GPU_FREE_GTT                    | Free GTT memory available                                                  |
+| GPU_USED_VRAM                   | Total VRAM memory used in MB                                            |
+| GPU_FREE_VRAM                   | Total VRAM memory free in MB                                            |
+| GPU_TOTAL_VISIBLE_VRAM          | Total available visible VRAM memory in MB                               |
+| GPU_USED_VISIBLE_VRAM           | Total used VRAM memory in MB                                            |
+| GPU_FREE_VISIBLE_VRAM           | Total free VRAM memory in MB                                            |
+| GPU_TOTAL_GTT                   | Total GTT memory in MB                                                     |
+| GPU_USED_GTT                    | Current GTT memory usage in MB                                             |
+| GPU_FREE_GTT                    | Free GTT memory available in MB                                            |
 | GPU_ECC_CORRECT_MCA             | Correctable ECC error in MCA                                               |
 | GPU_ECC_UNCORRECT_MCA           | Uncorrectable ECC error in MCA                                             |
 | GPU_ECC_CORRECT_VCN             | Correctable ECC error in VCN                                               |
